@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="SF-SHOTS Photography by Faith Sphiwe. Capturing weddings, portraits, families, events, and branding in Johannesburg and beyond." />
+  <title>SF-SHOTS Photography</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav role="navigation" aria-label="Main navigation">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#booking">Booking</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+
+    <!-- Home Section with Background -->
+    <section id="home">
+      <div class="overlay">
+        <h1>Welcome to SF-SHOTS Fortourgrafie</h1>
+        <p>Passionate about capturing real moments, real people, and real stories through the art of photography.</p>
+      </div>
+    </section>
+
+    <!-- Portfolio Gallery -->
+    <section id="portfolio" aria-labelledby="portfolio-heading">
+      <h2 id="portfolio-heading">Portfolio</h2>
+      <div class="gallery">
+        <figure>
+          <img src="images/photo1.jpg" alt="Vibrant wedding portrait in Johannesburg sunlight" loading="lazy" />
+          <figcaption>Wedding Portrait</figcaption>
+        </figure>
+        <figure>
+          <img src="images/photo2.jpg" alt="Family session in a park, candid laughter" loading="lazy" />
+          <figcaption>Family Moments</figcaption>
+        </figure>
+        <figure>
+          <img src="images/photo3.jpg" alt="Branding headshot for a creative professional" loading="lazy" />
+          <figcaption>Branding Shoot</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Booking Form -->
+    <section id="booking" aria-labelledby="booking-heading">
+      <h2 id="booking-heading">Book a Session</h2>
+      <form id="bookingForm" action="#" method="post">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+
+        <div class="form-group">
+          <label for="date">Preferred Date:</label>
+          <input type="date" id="date" name="date" required />
+        </div>
+
+        <div class="form-group">
+          <label for="details">Additional Details:</label>
+          <textarea id="details" name="details" rows="4"></textarea>
+        </div>
+
+        <button type="submit">Submit Booking</button>
+      </form>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <div class="contact-info">
+        <p>Email: faith@sf-shots.com</p>
+        <p>Phone: +27 65 373 7378</p>
+        <p>Location: Johannesburg, Gauteng – Available nationwide and beyond.</p>
+      </div>
+      <form id="contactForm" action="#" method="post">
+        <div class="form-group">
+          <label for="contactName">Name:</label>
+          <input type="text" id="contactName" name="contactName" required />
+        </div>
+
+        <div class="form-group">
+          <label for="contactEmail">Email:</label>
+          <input type="email" id="contactEmail" name="contactEmail" required />
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <!-- About Section with Illustration -->
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Me</h2>
+      <article>
+        <img src="images/illustration.svg" alt="Camera illustration" class="illustration" />
+        <h3>📸 About SF-SHOTS</h3>
+        <p>Hi, I'm Faith Sphiwe, the eye and heart behind SF-SHOTS, a photography brand based in Johannesburg, Gauteng. I specialize in capturing real moments, real people, and real stories through weddings, portraits, family sessions, events, and branding photography.</p>
+        <p>At SF-SHOTS, I believe photography is more than just taking pictures—it's about freezing time, emotion, and connection. Whether you’re saying “I do,” celebrating a milestone, or building a brand, I’m here to make sure your memories are captured with care, creativity, and authenticity.</p>
+        <p>With a blend of natural light and creative direction, I aim to make every session feel relaxed, fun, and uniquely you. Let’s turn your moments into timeless images.</p>
+        <p>📍 Available in Johannesburg &amp; beyond.</p>
+      </article>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 SF-SHOTS Fortourgrafie by Faith Sphiwe. All rights reserved.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

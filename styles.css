@@ -1,0 +1,133 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background: #111;
+  padding: 15px;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #f9a826;
+}
+
+/* Home Section with Background */
+#home {
+  position: relative;
+  background-image: url('images/background.jpg'); /* Replace with your own image */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#home .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 60px 20px;
+  border-radius: 8px;
+}
+
+/* Portfolio */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 20px;
+}
+
+.gallery figure {
+  width: 300px;
+  text-align: center;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Forms */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #f9a826;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e8951e;
+}
+
+/* About Section */
+#about {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.illustration {
+  max-width: 300px;
+  margin: 0 auto 20px auto;
+  display: block;
+}
+
+/* Footer */
+footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
